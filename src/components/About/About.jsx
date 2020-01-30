@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -40,6 +40,14 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
                     'I really do it all--development, gaming, fashion, photography, coffee, gym, and a variety of obscure hobbies. My motto is to work hard, fail fast, and LEARN fast in pursuit of achieving my personal/team oriented goals.'}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphTwo ||
+                    'At my current role I am a Developer working on the Salesforce Development Platform. I have developed and maintained solutions for clients by improving their sales processes either from the front-end or the back-end mostly using Apex, Visualforce, Node, TalendStudio & MongoDB'}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphThree ||
+                    'I would love to set up an introduction call to discuss how I could help your business and make your goals happen.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
