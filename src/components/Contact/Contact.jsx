@@ -21,7 +21,8 @@ const Contact = () => {
               {cta || 'Email: chrisdong916@gmail.com'}
             </p>
             <p className="contact-wrapper__text">
-              {cta || 'Phone: +1-(916)-670-4834'}</p>
+              {cta || 'Phone: +1-(916)-670-4834'}
+            </p>
           </div>
         </Fade>
       </Container>
