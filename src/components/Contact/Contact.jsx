@@ -6,7 +6,7 @@ import Title from '../Title/Title';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
-  const { cta, btn } = contact;
+  const { cta } = contact;
 
   return (
     <section id="contact">
