@@ -16,15 +16,9 @@ const Contact = () => {
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
+              {cta || 'Email: chrisdong916@gmail.com'}
+              {cta || '+1-(916)-670-4834'}
             </p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
-              href="mailto:chrisdong916@gmail.com"
-            >
-              {btn || "Let's Talk"}
-            </a>
           </div>
         </Fade>
       </Container>
