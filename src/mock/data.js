@@ -33,7 +33,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/PotatoCoder3000', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -42,7 +42,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/PotatoCoder3000', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -51,7 +51,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/PotatoCoder3000', // if no repo, the button will not show up
   },
 ];
 
@@ -65,11 +65,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: uuidv1(),
-      name: 'facebook',
-      url: 'https://www.facebook.com/thawungy',
-    },
     {
       id: uuidv1(),
       name: 'instagram',
