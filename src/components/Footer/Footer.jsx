@@ -23,7 +23,7 @@ const Footer = () => {
               return (
                 <a
                   key={id}
-                  href={url || 'https://github.com/PotatoCoder3000'}
+                  href={url || 'https://github.com/chrisgedong'}
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label={name}
@@ -36,7 +36,7 @@ const Footer = () => {
         <hr />
         <p className="footer__text">
           {new Date().getFullYear()} - Built by{' '}
-          <a href="https://github.com/PotatoCoder3000" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/chrisgedong" target="_blank" rel="noopener noreferrer">
             Chris Dong
           </a>
         </p>

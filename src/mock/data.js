@@ -61,7 +61,7 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'github',
-      url: 'https://github.com/PotatoCoder3000',
+      url: 'https://github.com/chrisgedong',
     },
   ],
 };
