@@ -49,7 +49,7 @@ const Projects = () => {
                             'Work in Progress'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
-                        <p><a href="https://sachacks.io/2018/index.html">Proof</a></p>
+                        <p><a href="https://sachacks.io/2018/index.html" target="_blank" rel="noopener noreferrer">Proof</a></p>
                       </div>
                     </div>
                   </Fade>
