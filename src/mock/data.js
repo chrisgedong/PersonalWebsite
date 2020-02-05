@@ -29,8 +29,8 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: "King's Court",
+    img: 'KingsShot.png',
+    title: "King's Shot",
     info: 'Team Project at SacHacks 2018 utilizing augmented reality to spawn a Basketball Hop on a smooth surface. Did I mention you can shoot hoops on it as well?',
     info2: "1st Place Award for SacHack 2018's Social Media Track.",
     url: 'https://github.com/chrisgedong/KingsCourt',
