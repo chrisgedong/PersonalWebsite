@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
@@ -48,6 +49,7 @@ const Projects = () => {
                             'Work in Progress'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
+                        <p><a href="https://sachacks.io/2018/index.html">Proof</a></p>
                       </div>
                     </div>
                   </Fade>
