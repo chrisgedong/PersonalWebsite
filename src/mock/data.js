@@ -33,8 +33,6 @@ export const projectsData = [
     title: "King's Court",
     info: 'Team Project at SacHacks 2018 utilizing augmented reality to spawn a Basketball Hop on a smooth surface. Did I mention you can shoot hoops on it as well?',
     info2: "1st Place Award for SacHack 2018's Social Media Track.",
-    //proofText: 'Proof',
-    //sacHackUrl: 'https://sachacks.io/2018/index.html',
     url: 'https://github.com/chrisgedong/KingsCourt',
     repo: 'https://github.com/chrisgedong', // if no repo, the button will not show up
   },
