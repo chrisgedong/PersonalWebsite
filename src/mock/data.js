@@ -29,29 +29,12 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: "King's Court",
+    info:
+      "Team Project at SacHacks 2018 utilizing augmented reality to spawn a Basketball Hop on a smooth surface. Did I mention you can shoot hoops on it as well? 1st Place Award for SacHack 2018's Social Media Track.",
     info2: '',
     url: '',
-    repo: 'https://github.com/PotatoCoder3000', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/PotatoCoder3000', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/PotatoCoder3000', // if no repo, the button will not show up
+    repo: 'https://github.com/chrisgedong/KingsCourt', // if no repo, the button will not show up
   },
 ];
 
