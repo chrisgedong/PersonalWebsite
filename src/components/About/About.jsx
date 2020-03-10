@@ -39,7 +39,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'I really do it all--development, gaming, fashion, photography, coffee, gym, and a variety of obscure hobbies. My motto is to work hard, fail fast, and LEARN fast in pursuit of achieving my personal/team oriented goals.'}
+                    'I really do it all--development, gaming, fashion, photography, fitness, and a variety of obscure hobbies. My motto is to work hard, fail fast, and LEARN fast in pursuit of achieving my personal/team oriented goals.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
