@@ -43,7 +43,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'At my current role I am a Developer working on the Salesforce Development Platform. I have developed and maintained solutions for clients by streamlining their sales processes either from the front-end or the back-end mostly using Apex, Visualforce, Node, TalendStudio, Heroku & MongoDB.'}
+                    'At my current role I am a Developer working on the Salesforce Development Platform. I have developed and maintained solutions for clients by streamlining their sales processes either from the front-end or the back-end mostly using Apex, Visualforce, TalendStudio, Heroku & MongoDB.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree ||
